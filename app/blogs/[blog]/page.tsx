@@ -6,14 +6,17 @@ interface Blog {
 	content: string;
 }
 
+type Params = Promise<{ id: string }>;
+
 const blogs: Blog[] = [
 	{ id: "1", title: "Blog One", content: "This is the full content of Blog One." },
 	{ id: "2", title: "Blog Two", content: "This is the full content of Blog Two." },
 	{ id: "3", title: "Blog Three", content: "This is the full content of Blog Three." },
 ];
 
-export default function BlogPage({ params }: { params: { id: string } }) {
-	const blog = blogs.find((b) => b.id === params.id);
+export default async function BlogPage({ params }: { params: Params }) {
+	const { id } = await params;
+	const blog = blogs.find(async (b) => b.id === id);
 
 	if (!blog) {
 		notFound(); // Show a 404 page if the blog is not found
