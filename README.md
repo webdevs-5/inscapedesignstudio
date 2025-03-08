@@ -38,3 +38,6 @@ from the creators of Next.js.
 Check out our
 [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying)
 for more details.
+
+Code rabbit reviews
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/webdevs-5/inscapedesignstudio?labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit%20Reviews)
