@@ -71,12 +71,12 @@ export default function Contactus() {
 		<div>
 			<div className='flex flex-col justify-center items-center my-10'>
 				<h1 className='text-7xl font-bold mb-10'>
-					<i>Let's Start A New Project</i>
+					<i>Let&#39;s Start A New Project</i>
 				</h1>
 				<div className='w-[625px] text-lg'>
 					W Design Studio is a premium Interior Design & Architecture firm, well known for designing
-					T-Hub, India’s largest incubator space and many state-of-the art Office Interior design,
-					Retail Space design & Premium Home Interior design.
+					T-Hub, India&#39;s largest incubator space and many state-of-the art Office Interior
+					design, Retail Space design & Premium Home Interior design.
 				</div>
 			</div>
 			<div className='flex justify-center items-center mt-20 ms-50'>
