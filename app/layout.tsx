@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import { Montserrat } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Footer from "./components/Footer";
 
-const montserrat = Montserrat({
+const poppins = Poppins({
 	subsets: ["latin"],
 	weight: ["400", "500", "600", "700", "800", "900"],
-	variable: "--font-montserrat",
+	variable: "--font-poppins",
 });
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export default function RootLayout({
 	return (
 		<html
 			lang='en'
-			className={montserrat.variable}
+			className={poppins.variable}
 		>
 			<body>
 				<Navbar />

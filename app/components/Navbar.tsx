@@ -33,7 +33,7 @@ export default function Navbar() {
 
 			{/* Contact Us Button */}
 			<Link
-				href='#'
+				href='/contactus'
 				className='bg-[#333333] text-white px-6 py-2 text-lg font-[400] me-8'
 			>
 				Contact Us
