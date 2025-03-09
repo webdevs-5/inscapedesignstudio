@@ -19,22 +19,22 @@ export default function Footer() {
 				{/* Navigation Links */}
 				<ul className='text-center space-y-3 pt-6 md:mt-0 md:text-left'>
 					<li>
-						<Link href='#'>
+						<Link href='/aboutus'>
 							<span className='hover:text-gray-400'>ABOUT US</span>
 						</Link>
 					</li>
 					<li>
-						<Link href='#'>
+						<Link href='/services'>
 							<span className='hover:text-gray-400'>SERVICES</span>
 						</Link>
 					</li>
 					<li>
-						<Link href='#'>
+						<Link href='/clients'>
 							<span className='hover:text-gray-400'>CLIENTS</span>
 						</Link>
 					</li>
 					<li>
-						<Link href='#'>
+						<Link href='/contactus'>
 							<span className='hover:text-gray-400'>CONTACT US</span>
 						</Link>
 					</li>
